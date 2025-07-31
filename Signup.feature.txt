@@ -1,0 +1,5 @@
+Feature: ChartApps Sign-Up
+  Scenario: Automate signup
+    Given I open ChartApps
+    When I fill in the sign-up form
+    Then I submit the form
