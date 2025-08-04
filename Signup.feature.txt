@@ -1,5 +1,8 @@
-Feature: ChartApps Sign-Up
-  Scenario: Automate signup
-    Given I open ChartApps
-    When I fill in the sign-up form
-    Then I submit the form
+Feature: Login functionality on ChartApps Dashboard
+ 
+  Scenario: Successful login with valid credentials
+    Given User is on the ChartApps login page
+    When User enters valid username and password
+    And User clicks the login button
+    Then User should be redirected to the dashboard
+
